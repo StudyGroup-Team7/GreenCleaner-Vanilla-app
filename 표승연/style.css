@@ -1,4 +1,5 @@
 @import url('./css/header.css');
+@import url('./css/gc-intro.css');
 
 .visually-hidden {
   position: absolute;
