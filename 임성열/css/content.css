@@ -1,0 +1,138 @@
+/* CONTENT LIST */
+
+.content-list1 p, .content-list2 p {
+  color: #666666;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+.content-list1 {
+  padding: 7vw;
+  text-align: center;
+  background-color: #EAEAEA;
+}
+
+.content-list1 .content-overview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.content-list1 .content-overview li {
+  background-color: #FFF;
+  width: 200px;
+  padding: 20px;
+  min-height: 220px;
+}
+
+.content-list1 .content-overview li span {
+  color: #FF4D51;
+  border: 1px solid #EAEAEA;
+  border-radius: 50%;
+  font-size: 2em;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.content-list1 .content-overview li h4 {
+  padding: 20px 0;
+}
+
+.content-list1 .content-overview li p {
+  text-align: start;
+}
+
+.content-list2 {
+  background: url(../image/topsub_2.jpg) no-repeat center bottom fixed;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.content-list2 .content-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 80px;
+}
+
+.content-list2 .content-description li {
+  background-color: #FFF;
+  width: 500px;
+  height: 400px;
+  padding: 30px 30px 50px 30px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.content-list2 .content-description li a {
+  display: flex;
+  justify-self: start;
+}
+
+.content-list2 .content-description li h4 {
+  
+}
+
+.content-list2 .content-description li .division-line{
+  border: none;
+  border-top: 1px solid #757575;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.content-list2 .content-description li p {
+  text-align: start;
+  margin: 10px 0;
+}
+
+.content-list2 .content-description .division-grid{
+  display: flex;
+  flex-grow: 1;
+}
+
+.content-list2 .content-description li span {
+  color: #FF4D51;
+  font-weight: 600;
+  display: flex;
+  align-self: flex-start;
+  margin: 10px 0;
+}
+
+.company-description {
+  background-color: #EAEAEA;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.company-description h2 {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.company-description .division-line {
+  border: none;
+  border-top: 1px solid #FF4D51;
+  width: 40%;
+  
+}
+
+.company-description p {
+  color:#757575;
+  margin: 10px 0;
+  line-height: 1.4em;
+}
+
+.company-description a {
+  margin-top: 20px;
+}

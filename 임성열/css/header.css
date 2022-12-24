@@ -1,0 +1,90 @@
+/* HEADER NAV */
+.header-background {
+  background: url(../image/first-bg.jpg) no-repeat center bottom fixed;
+  height: 90vh;
+  width: 100%;
+}
+
+header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav .menu {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header nav .menu li {
+  display: flex;
+  justify-content: center;
+  transition: all 0.8s;
+}
+
+header nav .menu li:hover {
+  background-color: #030;
+}
+
+header nav .menu li:hover a {
+  color: #fff;
+}
+
+header nav .menu li a {
+  color: #757575;
+  padding: 20px 30px;
+}
+
+header nav .toggleBtn {
+  display: none;
+}
+
+/* HEADER DESCRIPTION */
+.header-description {
+  padding-top: 300px;
+  display: flex;
+}
+
+.header-description .inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.header-description .header-description__title1 {
+  font-size: 1.3em;
+  font-weight: 600;
+  padding-bottom: 1.3em;
+}
+
+.header-description .header-description__title2 {
+  font-size: 2.4em;
+  font-weight: 600;
+  padding-bottom: 0.4em;
+}
+
+.header-description .header-description__text {
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.header-description a {
+  color: #757575;
+  background-color: #000;
+  padding: 20px 50px;
+}
+
+.header-description a:hover {
+  color: #fff;
+}
