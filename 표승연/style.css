@@ -1,6 +1,7 @@
 @import url('./css/header.css');
 @import url('./css/gc-intro.css');
 @import url('./css/gc-research.css');
+@import url('./css/gc-read.css');
 
 * {
   box-sizing: border-box;
