@@ -17,6 +17,28 @@ a{
 .inner{
   width: 1020px;
   margin: 0 auto;
+  height: 100%;
+}
+
+.btn{
+  width: 180px;
+  height: 16px;
+  padding: 10px;
+  text-align: center;
+  color: #FF4D51;
+  border: 1px solid #FF4D51;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #FF4D51;
+  color: #fff;
 }
 
 /**** HEADER ****/
@@ -105,7 +127,7 @@ header .header-caption p{
   line-height: 22px;
 }
 
-header .header-caption .btn{
+header .header-caption .btn-white{
   font-weight: 700;
   color: #fff;
   background-color: transparent;
@@ -116,12 +138,12 @@ header .header-caption .btn{
   transition: 0.3s;
 }
 
-header .header-caption .btn:hover{
+header .header-caption .btn-white:hover{
   background-color: #fff;
   color: #CBCC66;
 }
 
-header .header-caption .btn a{
+header .header-caption .btn-white a{
   font-size: 16px;
   line-height: 50px;
   padding: 10px 0;
@@ -266,3 +288,53 @@ header .header-caption .btn a{
   background-color: #FF4D51;
   color: #fff;
 }
+
+/***** INTRO COMPANY *****/
+
+.intro-company{
+  height: 185px;
+  padding: 80px 0;
+  background-color: #EAEAEA;
+}
+
+.intro-company .inner{
+  text-align: center;
+  position: relative;
+}
+
+.intro-company .inner h2{
+  font-size: 21px;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.intro-company .inner h2::after{
+  content: "";
+  width: 60%;
+  height: 1px;
+  border-bottom: 1px solid #FF4D51;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.intro-company .inner p{
+  line-height: 22px;
+}
+
+.intro-company .inner .btn{
+  position: absolute;
+  bottom: 0;
+  background-color: #FF4D51;
+  color: #fff;
+}
+
+.intro-company .inner .btn:hover{
+  background-color: transparent;
+  color: #FF4D51;
+}
+
