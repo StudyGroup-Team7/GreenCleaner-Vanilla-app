@@ -174,4 +174,95 @@ header .header-caption .btn a{
 .greencleaner__list .inner .list-card p{
   font-size: 15px;
   line-height: 22px;
+  word-break:break-all;
+}
+
+/**** INFO SECTION ****/
+
+.greencleaner__info{
+  height: 658px;
+  background-image: url(../image/topsub_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.greencleaner__info .inner{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  color: #666;
+}
+
+.greencleaner__info .inner .des{
+  width: 495px;
+  height: 366px;
+  padding:20px 0 50px 0px; 
+  background-color: #fff;
+  position: relative;
+}
+
+.greencleaner__info .inner span{
+  display: block;
+  color: #ff3300;
+  font-weight: 700;
+}
+
+.greencleaner__info .inner .description1 span{
+  padding:20px 0 65px 0;
+}
+
+.greencleaner__info .inner .description2 span{
+  margin: 20px 0;
+}
+
+.greencleaner__info .inner .des .des__content{
+  margin:0 47px;
+}
+
+.greencleaner__info .inner .title{
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.greencleaner__info .inner .title::after{
+  content: "";
+  width: 60%;
+  height: 1px;
+  border-bottom: 1px solid #999;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.greencleaner__info .inner p{
+  margin-top: 20px;
+  line-height: 22px;
+}
+
+.greencleaner__info .inner .btn{
+  width: 180px;
+  height: 16px;
+  padding: 10px;
+  text-align: center;
+  color: #FF4D51;
+  border: 1px solid #FF4D51;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.greencleaner__info .inner .btn:hover{
+  background-color: #FF4D51;
+  color: #fff;
 }
