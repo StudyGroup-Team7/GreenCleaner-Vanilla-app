@@ -1,0 +1,49 @@
+.gc-intro {
+  height: 900px;
+  text-align: center;
+  color: #fff;
+  background-image: url('../images/first-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.gc-intro-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.gc-intro .title {
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.gc-intro .brand {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.gc-intro .description {
+  margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.gc-intro .btn-download {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #000;
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,49 @@
+.gnb {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.gnb .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.gnb .logo {
+  display: block;
+  width: 186px;
+  height: 30px;
+}
+
+.gnb .logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.gnb .gnb-nav .gnb-list {
+  display: flex;
+}
+
+.gnb .gnb-nav .gnb-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  padding: 0 30px;
+  font-size: 15px;
+  color: #666;
+  letter-spacing: 1px;
+  line-height: 60px;
+  text-decoration: none;
+  transition: all 400ms ease-in-out;
+}
+
+.gnb .gnb-nav .gnb-item a:hover {
+  color: #fff;
+  background-color: #030;
+}
