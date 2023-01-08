@@ -1,0 +1,97 @@
+/* CSS URL */
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./content.css");
+@import url("./footer.css");
+
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap");
+
+/* COMMON */
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+
+.inner {
+  width: 80vw;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.btn-red {
+  /* width: 100px; */
+  color: #FFF;
+  background-color: #FF4D51;
+  padding: 10px 40px;
+  font-size: 0.8em;
+}
+
+.btn-red:hover {
+  color: #FF4D51;
+  background-color: #FFF;
+  border: 1px solid #FF4D51;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 960px) {
+  header nav {
+    min-height: 60px;
+    position: relative;
+  }
+
+  header nav .toggleBtn {
+    display: block;
+    position: absolute;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  header nav .menu {
+    display: none;
+  }
+
+  header nav .menu.menu-trigger {
+    background-color: #fff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    right: 0;
+    top: 14px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  header nav .menu.menu-trigger li {
+    flex-grow: 1;
+  }
+
+  .content-list2 {
+    min-height: 1000px; 
+  }
+
+  .content-list2 .content-description {
+    flex-wrap: wrap;
+  }
+
+}
+
+
